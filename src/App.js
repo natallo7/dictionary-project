@@ -11,13 +11,13 @@ export default function App() {
         </main>
         <footer className="App-footer">
           <small>
-            Coded by{" "}
+            Coded by Natalia Lloyd{" "}
             <a
               href="https://github.com/natallo7/dictionary-project"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Natalia Lloyd and open-sourced on GitHub.
+              and open-sourced on GitHub.
             </a>
           </small>
         </footer>
