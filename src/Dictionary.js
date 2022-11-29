@@ -40,10 +40,10 @@ export default function Dictionary(props) {
           <form onSubmit={handleSubmit}>
             <input type="search" onChange={handleKeywordChange} />
           </form>
+          <div className="hint">
+            Suggested words: sunset, coffee, books, hiking
+          </div>
         </section>
-        <div className="hint">
-          Suggested words: sunset, coffee, books, hiking
-        </div>
         <Results results={results} />
       </div>
     );
