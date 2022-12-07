@@ -21,6 +21,11 @@ body {
 
 .App-footer a {
   text-decoration: none;
+  color: #334438;
+}
+
+.App-footer a:hover {
+  text-decoration: underline;
 }
 
 .App-footer {
