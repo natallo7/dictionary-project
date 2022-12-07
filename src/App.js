@@ -5,7 +5,9 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">Dictionary</header>
+        <header className="App-header">
+          <h1>Dictionary</h1>
+        </header>
         <main>
           <Dictionary defaultKeyword="coffee" />
         </main>
@@ -19,6 +21,11 @@ export default function App() {
             >
               and open-sourced on GitHub.
             </a>
+            <br />
+            <a href="https://www.freepik.com/free-vector/botanical-themed-design-space_4122027.htm#query=plants%20illustration&position=30&from_view=search&track=sph">
+              Background image by rawpixel.com
+            </a>{" "}
+            on Freepik
           </small>
         </footer>
       </div>
